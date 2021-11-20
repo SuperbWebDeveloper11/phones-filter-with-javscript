@@ -4,7 +4,7 @@
 - It allow users to add a phone numbers and names
 - Also users could filter phones either by names or by numbers
 
-![Screenshot]()
+![Screenshot](https://github.com/pedrasfloki/phones-filter-with-javscript/blob/main/phone-number.png)
 
 ### `Dependencies`
 
