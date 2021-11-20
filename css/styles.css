@@ -1,0 +1,110 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+/* style the div container and center it */
+div.container {
+  width: 80%;
+  margin: auto;
+}
+/* style the title */
+h2#title {
+  text-align: center;
+  padding-top: 1.2em;
+  padding-bottom: 1.1em;
+}
+
+/* style the filter inputes */
+div.filter-phones {
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+  margin-bottom: 2em;
+}
+div.filter-phones input {
+  padding-left: 1.2em;
+  height: 2.1em;
+  width: 100%;
+}
+
+/* clear the float property */
+div.phone-list,
+footer {
+  clear: both;
+}
+
+/* style phone list table */
+#phone-list {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#phone-list td,
+#phone-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#phone-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#phone-list tr:hover {
+  background-color: #ddd;
+}
+
+#phone-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f49049;
+}
+
+#phone-list tr td button {
+  display: inline-block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 100%;
+  background-color: #291717;
+  color: white;
+}
+
+/* style the add phone form */
+#add-phone .phone-number,
+#add-phone .phone-name {
+  float: left;
+  width: 40%;
+  padding-left: 5px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#add-phone .add-btn {
+  float: left;
+  width: 20%;
+  padding-left: 5px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#add-phone .phone-number input,
+#add-phone .phone-name input {
+  padding-left: 1.2em;
+  height: 2.1em;
+  width: 100%;
+}
+#add-phone .add-btn input {
+  height: 2.1em;
+  width: 100%;
+  background-color: #f49049;
+  border: 1px solid #d65f0b;
+}
+#add-phone .add-btn input:hover {
+  background-color: #e26b16;
+  cursor: pointer;
+}
+
+/* style the footer */
+footer {
+  text-align: center;
+  padding-bottom: 1.1em;
+}

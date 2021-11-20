@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Phone Filter</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- title -->
+      <h2 id="title">Filter Phone Numbers</h2>
+      <!-- input fields to filter phones by names and numbers -->
+      <div>
+        <div class="filter-phones">
+          <input
+            type="text"
+            id="filter-by-number"
+            placeholder="filter by number"
+          />
+        </div>
+        <div class="filter-phones">
+          <input
+            class="filter-phones"
+            type="text"
+            id="filter-by-name"
+            placeholder="filter by name"
+          />
+        </div>
+      </div>
+      <!-- <div class="phone-list">
+        <ul id="phone-list">
+          <li>
+            <span class="number">11111 </span> -
+            <span class="name"> phone 1 </span> -
+            <button class="delete">X</button>
+          </li>
+          <li>
+            <span class="number"> 22222 </span> -
+            <span class="name"> phone 2 </span> -
+            <button class="delete">X</button>
+          </li>
+          <li>
+            <span class="number"> 33322 </span> -
+            <span class="name"> phone 3 </span> -
+            <button class="delete">X</button>
+          </li>
+        </ul>
+      </div> -->
+      <!-- list of all phone names and phone numbers -->
+      <table id="phone-list">
+        <tr>
+          <th>Phone number</th>
+          <th>Name</th>
+          <th>Delete</th>
+        </tr>
+        <tr>
+          <td>0511223344</td>
+          <td>Jamal</td>
+          <td><button>delete</button></td>
+        </tr>
+        <tr>
+          <td>0755667788</td>
+          <td>Kamal</td>
+          <td><button>delete</button></td>
+        </tr>
+        <tr>
+          <td>0655667788</td>
+          <td>kada</td>
+          <td><button>delete</button></td>
+        </tr>
+      </table>
+
+      <!-- form to create new phone -->
+      <div>
+        <form id="add-phone">
+          <div class="phone-number">
+            <input type="text" id="number" placeholder="number" />
+          </div>
+          <div class="phone-name">
+            <input type="text" id="name" placeholder="name" />
+          </div>
+          <div class="add-btn">
+            <input type="submit" value="Add" role="button" />
+          </div>
+        </form>
+      </div>
+      <!-- footer -->
+      <footer>
+        <p>Phone Number Filter</p>
+      </footer>
+      <script src="./app.js"></script>
+    </div>
+  </body>
+</html>
